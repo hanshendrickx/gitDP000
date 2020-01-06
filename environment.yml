@@ -1,14 +1,14 @@
 name: envDP000
 channels:
-  - conda-forge/label/gcc7
   - anaconda
+  - conda-forge/label/gcc7
   - conda-forge
   - defaults
 dependencies:
   - astroid=2.3.3=py37_0
   - babel=2.7.0=py_0
   - blinker=1.4=py_1
-  - ca-certificates=2019.11.27=0
+  - ca-certificates=2019.11.28=hecc5488_0
   - certifi=2019.11.28=py37_0
   - cffi=1.13.2=py37hb32ad35_0
   - chardet=3.0.4=py37_1003
@@ -26,7 +26,7 @@ dependencies:
   - libpq=11.2=h3235a2c_0
   - markupsafe=1.1.1=py37hfa6e2cd_0
   - oauthlib=3.0.1=py_0
-  - openssl=1.1.1=he774522_0
+  - openssl=1.1.1d=hfa6e2cd_0
   - pip=19.3.1=py37_0
   - postgresql=11.2=h3235a2c_0
   - psycopg2=2.8.4=py37h7a1dbc1_0
